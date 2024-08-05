@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The journey of the moon and the sun">
+    <meta name="author" content="yxCarla">
+    <title>The Moon and the Sun</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lumanosimo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet'>
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <!--add another entire div container to contain intro and timeline
+        elements, assign class of current body-->
+    <div id="body">
+        
+        <div class="web" id="web-intro">
+            The Journey of the Moon and the Sun
+
+            <p>Here is a collection of my favorite memories and photos of us</p>
+
+            <p>For mon amour Ayla</p>
+            <p id="time-box"></p>
+            <p style="font-family: 'Oldenburg'; font-size: 15px; text-shadow: none;">Hover over the captions to see
+                more!</p>
+        </div>
+
+        <div class="web" id="web-body">
+
+            <div class="filler"></div>
+
+            <div id="timeline">
+                <div id="timeline-top">
+                    <div class="caption-box" onmouseenter="changeImage()" onmouseleave="changeCaption()">
+                        <div class="date">February 2</div>
+                        <img src="" id="twotwo">
+                        <div id="caption-box-1">I texted you that night and here is where we <br>started. I'll never
+                            forget me getting you
+                            to ask <br>for my number.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage3()" onmouseleave="changeCaption3()">
+                        <div class="date">February 14</div>
+                        <img src="" id="twofourteen">
+                        <div id="caption-box-3">Valentine's Day! You made me a playlist <br>which I adore. And I decided
+                            to take my first
+                            <br>selfie with you.
+                        </div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage5()" onmouseleave="changeCaption5()">
+                        <div class="date">February 22</div>
+                        <img src="" id="twotwentytwo">
+                        <div id="caption-box-5">The ridiculous NHD during midwinter break <br>and I came to hang out
+                            with you! I really love
+                            <br>this picture.
+                        </div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage7()" onmouseleave="changeCaption7()">
+                        <div class="date">April 18</div>
+                        <img src="" id="foureighteen">
+                        <div id="caption-box-7">The Garfinkel sanctuary. We look cute.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage9()" onmouseleave="changeCaption9()">
+                        <div class="date">May 10</div>
+                        <img src="" id="fiveten">
+                        <div id="caption-box-9">Your half birthday. We look batshit crazy. I <br>loved the macarons, dinner (Thai!), and
+                        froyo. <br>And remember the free donuts?</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage11()" onmouseleave="changeCaption11()">
+                        <div class="date">May 29</div>
+                        <img src="" id="fivetwentynine">
+                        <div id="caption-box-11">Sorry Eric! And we made cute bracelets for <br>each other.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage13()" onmouseleave="changeCaption13()">
+                        <div class="date">June 7</div>
+                        <img src="" id="sixseven">
+                        <div id="caption-box-13">Sleepover and L at my place.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage15()" onmouseleave="changeCaption15()">
+                        <div class="date">June 12</div>
+                        <img src="" id="sixtwelve">
+                        <div id="caption-box-15">I got pride stickers and we were gay.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage17()" onmouseleave="changeCaption17()">
+                        <div class="date">June 17</div>
+                        <img src="" id="sixseventeen">
+                        <div id="caption-box-17">More L. I loved guessing your favorite geodes. <br>And sharing that smore's cookie with you.
+                        <br>You look
+                        so smiley here, I love it.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage19()" onmouseleave="changeCaption19()">
+                        <div class="date">June 20</div>
+                        <img src="" id="sixtwenty">
+                        <div id="caption-box-19">Graduation. This is one of my top favorite <br>photos of us. The frosting on our noses is
+                        cute. <br>We look so in love and I adore that.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage21()" onmouseleave="changeCaption21()">
+                        <div class="date">July 17</div>
+                        <img src="" id="sevenseventeen">
+                        <div id="caption-box-21">This is such a funny picture I love. And your <br>bangs look super cute.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage23()" onmouseleave="changeCaption23()">
+                        <div class="date">July 29</div>
+                        <img src="" id="seventwentynine">
+                        <div id="caption-box-23">In silver and cubic zirconia I promise you <br>my love. I know you love tulips too,
+                        so here is <br>one that lasts forever.</div>
+                    </div>
+
+                    <!---->
+                </div>
+
+                <div id="timeline-bottom">
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage2()" onmouseleave="changeCaption2()">
+                        <div class="date">February 8</div>
+                        <img src="" id="twoeight">
+                        <div id="caption-box-2">Yes, yes, the day I asked you out. Bold move of <br>me. And worth it
+                            too, considering
+                            today's date.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage4()" onmouseleave="changeCaption4()">
+                        <div class="date">February 20</div>
+                        <img src="" id="twotwenty">
+                        <div id="caption-box-4">First time at my house. I made blueberry <br>bread. And you also drew
+                            stars on my scars.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage6()" onmouseleave="changeCaption6()">
+                        <div class="date">March 30</div>
+                        <img src="" id="threethirty">
+                        <div id="caption-box-6">Dessert at Sweet Moment. And you <br>look good in red.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage8()" onmouseleave="changeCaption8()">
+                        <div class="date">April 30</div>
+                        <img src="" id="fourthirty">
+                        <div id="caption-box-8">This is one of my favorite pictures of us at <br>the library. I also
+                        am dressed gay and have <br>my nerdy glasses on.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage10()" onmouseleave="changeCaption10()">
+                        <div class="date">May 18</div>
+                        <img src="" id="fiveeighteen">
+                        <div id="caption-box-10">My first time with L. Even though I got into <br>trouble, it was worth it. Still want <br>to
+                        consume you always.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage12()" onmouseleave="changeCaption12()">
+                        <div class="date">June 3</div>
+                        <img src="" id="sixthree">
+                        <div id="caption-box-12">Union Square! We have a klep addiction to <br>that place. And I got this cute plant for you.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage14()" onmouseleave="changeCaption14()">
+                        <div class="date">June 8</div>
+                        <img src="" id="sixeight">
+                        <div id="caption-box-14">You do my makeup for prom. And we snuck <br>a kiss there. I really loved the corsage <br>you
+                        got me.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage16()" onmouseleave="changeCaption16()">
+                        <div class="date">June 16</div>
+                        <img src="" id="sixsixteen">
+                        <div id="caption-box-16">My princess with a lovely princess <br>outfit. We look so happy here.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage18()" onmouseleave="changeCaption18()">
+                        <div class="date">June 18</div>
+                        <img src="" id="sixeighteen">
+                        <div id="caption-box-18">We make scones together. And more <br>cute bracelets. I love making <br>soy sauce ramen for
+                        you.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage20()" onmouseleave="changeCaption20()">
+                        <div class="date">June 27</div>
+                        <img src="" id="sixtwentyseven">
+                        <div id="caption-box-20">Beach day with you. I liked reading <br>Meditations to you and eating our snacks.</div>
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage22()" onmouseleave="changeCaption22()">
+                        <div class="date">July 18</div>
+                        <img src="" id="seveneighteen">
+                        <div id="caption-box-22">A snippet from the vlog. I love your pesto <br>ravioli and your parmesan cheese and your
+                        <br>diet coke.</div>
+
+                    </div>
+                    <div class="caption-box-empty"></div>
+                    <div class="caption-box" onmouseenter="changeImage24()" onmouseleave="changeCaption24()">
+                        <div class="date">August 1</div>
+                        <img src="" id="eightone">
+                        <div id="caption-box-24">I swear National Girlfriend Day is real. <br>Your phone case eats and my piercings eat.
+                        <br>I love you.</div>
+                    </div>
+                    <!--<div class="caption-box-empty"></div>-->
+
+
+                </div>
+
+            </div>
+            <div class="filler"></div>
+        </div>
+        <div class="web" id="web-outro">
+            ...To Be Continuously Updated
+            <br>
+            <p>I love you, mon cheri</p>
+            <br>
+        </div>
+    </div>
+
+</body>
+
+</html>
