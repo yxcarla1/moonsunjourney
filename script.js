@@ -1,13 +1,13 @@
 function checkDate() {
     let present = new Date().getDate();
-    let setDate = new Date('August 8, 2024').getDate();
+    let setDate = new Date('September 8, 2024').getDate();
 
     if (present == setDate) {
-        alert('Happy 6 Months!');
+        alert('Happy 7 Months!');
     }
     else {
         var timeBox = document.getElementById('time-box');
-        timeBox.innerHTML = 'Almost 6 months!';
+        timeBox.innerHTML = '6 months and counting!';
     }
 
 
@@ -32,13 +32,13 @@ function changeCaption() {
 function changeImage2() {
     var captionBox1 = document.getElementById('caption-box-2');
     captionBox1.style.display = 'none'
-    document.getElementById('twoeight').src='https://purepng.com/public/uploads/large/love-hearts-mi9.png';
+    document.getElementById('twoeight').src = 'https://purepng.com/public/uploads/large/love-hearts-mi9.png';
 }
 
 function changeCaption2() {
     var captionBox1 = document.getElementById('caption-box-2');
     captionBox1.style.display = 'block'
-    document.getElementById('twoeight').src='';
+    document.getElementById('twoeight').src = '';
 }
 
 function changeImage3() {
@@ -133,156 +133,156 @@ function changeCaption10() {
 function changeImage11() {
     var captionBox1 = document.getElementById('caption-box-11');
     captionBox1.style.display = 'none'
-    document.getElementById('fivetwentynine').src='images/0529.jpg';
+    document.getElementById('fivetwentynine').src = 'images/0529.jpg';
 }
 
 function changeCaption11() {
     var captionBox1 = document.getElementById('caption-box-11');
     captionBox1.style.display = 'block'
-    document.getElementById('fivetwentynine').src='';
+    document.getElementById('fivetwentynine').src = '';
 }
 function changeImage12() {
     var captionBox1 = document.getElementById('caption-box-12');
     captionBox1.style.display = 'none'
-    document.getElementById('sixthree').src='images/0603.jpg';
+    document.getElementById('sixthree').src = 'images/0603.jpg';
 }
 
 function changeCaption12() {
     var captionBox1 = document.getElementById('caption-box-12');
     captionBox1.style.display = 'block'
-    document.getElementById('sixthree').src='';
+    document.getElementById('sixthree').src = '';
 }
 function changeImage13() {
     var captionBox1 = document.getElementById('caption-box-13');
     captionBox1.style.display = 'none'
-    document.getElementById('sixseven').src='images/0607.jpg';
+    document.getElementById('sixseven').src = 'images/0607.jpg';
 }
 
 function changeCaption13() {
     var captionBox1 = document.getElementById('caption-box-13');
     captionBox1.style.display = 'block'
-    document.getElementById('sixseven').src='';
+    document.getElementById('sixseven').src = '';
 }
 function changeImage14() {
     var captionBox1 = document.getElementById('caption-box-14');
     captionBox1.style.display = 'none'
-    document.getElementById('sixeight').src='images/0608.jpg';
+    document.getElementById('sixeight').src = 'images/0608.jpg';
 }
 
 function changeCaption14() {
     var captionBox1 = document.getElementById('caption-box-14');
     captionBox1.style.display = 'block'
-    document.getElementById('sixeight').src='';
+    document.getElementById('sixeight').src = '';
 }
 function changeImage15() {
     var captionBox1 = document.getElementById('caption-box-15');
     captionBox1.style.display = 'none'
-    document.getElementById('sixtwelve').src='images/0612.jpg';
+    document.getElementById('sixtwelve').src = 'images/0612.jpg';
 }
 
 function changeCaption15() {
     var captionBox1 = document.getElementById('caption-box-15');
     captionBox1.style.display = 'block'
-    document.getElementById('sixtwelve').src='';
+    document.getElementById('sixtwelve').src = '';
 }
 function changeImage16() {
     var captionBox1 = document.getElementById('caption-box-16');
     captionBox1.style.display = 'none'
-    document.getElementById('sixsixteen').src='images/0616.jpg';
+    document.getElementById('sixsixteen').src = 'images/0616.jpg';
 }
 
 function changeCaption16() {
     var captionBox1 = document.getElementById('caption-box-16');
     captionBox1.style.display = 'block'
-    document.getElementById('sixsixteen').src='';
+    document.getElementById('sixsixteen').src = '';
 }
 function changeImage17() {
     var captionBox1 = document.getElementById('caption-box-17');
     captionBox1.style.display = 'none'
-    document.getElementById('sixseventeen').src='images/0617.jpg';
+    document.getElementById('sixseventeen').src = 'images/0617.jpg';
 }
 
 function changeCaption17() {
     var captionBox1 = document.getElementById('caption-box-17');
     captionBox1.style.display = 'block'
-    document.getElementById('sixseventeen').src='';
+    document.getElementById('sixseventeen').src = '';
 }
 function changeImage18() {
     var captionBox1 = document.getElementById('caption-box-18');
     captionBox1.style.display = 'none'
-    document.getElementById('sixeighteen').src='images/0618.jpg';
+    document.getElementById('sixeighteen').src = 'images/0618.jpg';
 }
 
 function changeCaption18() {
     var captionBox1 = document.getElementById('caption-box-18');
     captionBox1.style.display = 'block'
-    document.getElementById('sixeighteen').src='';
+    document.getElementById('sixeighteen').src = '';
 }
 function changeImage19() {
     var captionBox1 = document.getElementById('caption-box-19');
     captionBox1.style.display = 'none'
-    document.getElementById('sixtwenty').src='images/0620.jpg';
+    document.getElementById('sixtwenty').src = 'images/0620.jpg';
 }
 
 function changeCaption19() {
     var captionBox1 = document.getElementById('caption-box-19');
     captionBox1.style.display = 'block'
-    document.getElementById('sixtwenty').src='';
+    document.getElementById('sixtwenty').src = '';
 }
 function changeImage20() {
     var captionBox1 = document.getElementById('caption-box-20');
     captionBox1.style.display = 'none'
-    document.getElementById('sixtwentyseven').src='images/0627.jpg';
+    document.getElementById('sixtwentyseven').src = 'images/0627.jpg';
 }
 
 function changeCaption20() {
     var captionBox1 = document.getElementById('caption-box-20');
     captionBox1.style.display = 'block'
-    document.getElementById('sixtwentyseven').src='';
+    document.getElementById('sixtwentyseven').src = '';
 }
 function changeImage21() {
     var captionBox1 = document.getElementById('caption-box-21');
     captionBox1.style.display = 'none'
-    document.getElementById('sevenseventeen').src='images/0717.jpg';
+    document.getElementById('sevenseventeen').src = 'images/0717.jpg';
 }
 
 function changeCaption21() {
     var captionBox1 = document.getElementById('caption-box-21');
     captionBox1.style.display = 'block'
-    document.getElementById('sevenseventeen').src='';
+    document.getElementById('sevenseventeen').src = '';
 }
 function changeImage22() {
     var captionBox1 = document.getElementById('caption-box-22');
     captionBox1.style.display = 'none'
-    document.getElementById('seveneighteen').src='images/0718.jpg';
+    document.getElementById('seveneighteen').src = 'images/0718.jpg';
 }
 
 function changeCaption22() {
     var captionBox1 = document.getElementById('caption-box-22');
     captionBox1.style.display = 'block'
-    document.getElementById('seveneighteen').src='';
+    document.getElementById('seveneighteen').src = '';
 }
 function changeImage23() {
     var captionBox1 = document.getElementById('caption-box-23');
     captionBox1.style.display = 'none'
-    document.getElementById('seventwentynine').src='images/0729.jpg';
+    document.getElementById('seventwentynine').src = 'images/0729.jpg';
 }
 
 function changeCaption23() {
     var captionBox1 = document.getElementById('caption-box-23');
     captionBox1.style.display = 'block'
-    document.getElementById('seventwentynine').src='';
+    document.getElementById('seventwentynine').src = '';
 }
 function changeImage24() {
     var captionBox1 = document.getElementById('caption-box-24');
     captionBox1.style.display = 'none'
-    document.getElementById('eightone').src='images/0801.jpg';
+    document.getElementById('eightone').src = 'images/0801.jpg';
 }
 
 function changeCaption24() {
     var captionBox1 = document.getElementById('caption-box-24');
     captionBox1.style.display = 'block'
-    document.getElementById('eightone').src='';
+    document.getElementById('eightone').src = '';
 }
 
 
