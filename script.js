@@ -14,7 +14,7 @@ function checkDate() {
 
 }
 
-window.onload(checkDate());
+
 
 function changeImage() {
     var captionBox1 = document.getElementById('caption-box-1');
