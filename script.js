@@ -1,13 +1,13 @@
 function checkDate() {
     let present = new Date().getDate();
-    let setDate = new Date('September 8, 2024').getDate();
+    let setDate = new Date('October 8, 2024').getDate();
 
     if (present == setDate) {
-        alert('Happy 7 Months!');
+        alert('Happy 8 Months!');
     }
     else {
         var timeBox = document.getElementById('time-box');
-        timeBox.innerHTML = '6 months and counting!';
+        timeBox.innerHTML = '7 months and counting!';
     }
 
 
@@ -283,9 +283,52 @@ function changeCaption24() {
     var captionBox1 = document.getElementById('caption-box-24');
     captionBox1.style.display = 'block'
     document.getElementById('eightone').src = '';
+    
+}
+function changeImage25() {
+    var captionBox1 = document.getElementById('caption-box-25');
+    captionBox1.style.display = 'none'
+    document.getElementById('eighteight').src = 'images/0808.jpg';
 }
 
+function changeCaption25() {
+    var captionBox1 = document.getElementById('caption-box-25');
+    captionBox1.style.display = 'block'
+    document.getElementById('eighteight').src = '';
 
+}
+function changeImage26() {
+    var captionBox1 = document.getElementById('caption-box-26');
+    captionBox1.style.display = 'none'
+    document.getElementById('eightseventeen').src = 'images/0817.jpg';
+}
 
+function changeCaption26() {
+    var captionBox1 = document.getElementById('caption-box-26');
+    captionBox1.style.display = 'block'
+    document.getElementById('eightseventeen').src = '';
 
+}
+function changeImage27() {
+    var captionBox1 = document.getElementById('caption-box-27');
+    captionBox1.style.display = 'none'
+    document.getElementById('ninethirteen').src = 'images/0913.jpg';
+}
 
+function changeCaption27() {
+    var captionBox1 = document.getElementById('caption-box-27');
+    captionBox1.style.display = 'block'
+    document.getElementById('ninethirteen').src = '';
+
+}
+function changeImage28() {
+    var captionBox1 = document.getElementById('caption-box-28');
+    captionBox1.style.display = 'none'
+    document.getElementById('tenone').src = 'images/1001.jpg';
+}
+
+function changeCaption28() {
+    var captionBox1 = document.getElementById('caption-box-28');
+    captionBox1.style.display = 'block'
+    document.getElementById('tenone').src = '';
+}
